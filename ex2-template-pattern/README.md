@@ -13,7 +13,7 @@ In this exercise, you will implement and enhance an application that uses the Te
 
 ## Requirements
 
-1. **Project Structure**:
+1. **Suggested Project Structure**:
    - Refactor the project to follow the suggested folder structure:
      ```
      ex2-template-pattern/
@@ -83,11 +83,11 @@ Here are some sample prompts you can use with Copilot to guide you through the r
 
 ### Testing Phase
 1. **Unit Tests**:
-   - "Write a pytest test case to verify that the `CompanyReport` class generates a report correctly."
-   - "Generate a pytest test to check that the header and footer methods are called in the correct order."
+   - "Write a unit test case to verify that the `CompanyReport` class generates a report correctly."
+   - "Generate a unit test to check that the header and footer methods are called in the correct order."
 
 2. **Mocking and Isolation**:
-   - "Write a pytest test that mocks the data retrieval dependency for the `CompanyReport` class."
+   - "Write a unit test that mocks the data retrieval dependency for the `CompanyReport` class."
 
 ### Documentation Phase
 1. **Explain the Pattern**:

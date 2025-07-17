@@ -181,6 +181,5 @@ Here are some sample prompts you can use with Copilot to guide you through the e
 
 2. A `requirements.txt` file listing all dependencies.
 
-3. A [README.md](http://_vscodecontentref_/0) file documenting how to set up and run the application.
+3. A README.md file documenting how to set up and run the application.
 
-Good luck, and happy coding!
