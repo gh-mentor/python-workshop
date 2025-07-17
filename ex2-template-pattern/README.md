@@ -14,7 +14,7 @@ In this exercise, you will implement and enhance an application that uses the Te
 ## Requirements
 
 1. **Suggested Project Structure**:
-   - Refactor the project to follow the suggested folder structure:
+   - Following is the suggested folder structure:
      ```
      ex2-template-pattern/
      ├── src/
@@ -33,17 +33,6 @@ In this exercise, you will implement and enhance an application that uses the Te
      └── .env
      ```
 
-2. **Refactor Code**:
-   - Separate interfaces (contracts) from implementations.
-   - Use dependency injection to decouple classes.
-   - Ensure the code adheres to SOLID principles.
-
-3. **Unit Testing**:
-   - Write unit tests using `pytest` to validate the functionality of the application.
-   - Ensure tests cover typical and edge cases.
-
-4. **Documentation**:
-   - Update the README to explain the application and its use of the Template Method Pattern.
 
 ## Instructions
 
@@ -63,8 +52,8 @@ In this exercise, you will implement and enhance an application that uses the Te
      pytest
      ```
 
-5. **Enhance Documentation**:
-   - Update the README to explain the Template Method Pattern and how it is used in the application.
+5. **Documentation**:
+   - Explain the Template Method Pattern and how it is used in the application.
 
 ## Sample Prompts for Copilot Assistance
 
