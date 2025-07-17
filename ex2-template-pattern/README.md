@@ -80,7 +80,7 @@ Here are some sample prompts you can use with Copilot to guide you through the r
 
 ### Documentation Phase
 1. **Explain the Pattern**:
-   - "Write a section in the README to explain the Template Method Pattern with examples."
+   - "Create documentation to explain the Template Method Pattern with examples."
    - "Add a diagram to illustrate the flow of the Template Method Pattern."
 
 By following these instructions and using the provided prompts, you can refactor the project to adhere to best practices and ensure it is well-documented and testable. Happy coding!
