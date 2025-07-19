@@ -2,85 +2,53 @@
 
 In this exercise, you will implement and enhance an application that uses the Template Method Pattern. The goal is to understand the pattern, refactor the project to follow best practices, and adhere to SOLID design principles.
 
-## Objectives
-
-1. **Understand the Template Method Pattern**: Learn how the pattern works and its use cases.
-2. **Refactor Project Structure**: Organize the project to follow Python best practices.
-3. **Adhere to SOLID Principles**: Refactor the code to ensure it adheres to SOLID design principles.
-4. **Separate Contracts from Implementation**: Use interfaces to decouple contracts from their implementations.
-5. **Dependency Injection**: Decouple classes to improve testability.
-6. **Unit Testing**: Write unit tests to validate the functionality of the application.
-
-## Requirements
-
-1. **Suggested Project Structure**:
-   - Following is the suggested folder structure:
-     ```
-     ex2-template-pattern/
-     ├── src/
-     │   ├── reports/
-     │   │   ├── __init__.py
-     │   │   ├── i_report_template.py
-     │   │   ├── company_report.py
-     │   ├── __init__.py
-     │   ├── main.py
-     ├── tests/
-     │   ├── __init__.py
-     │   ├── test_company_report.py
-     ├── requirements.txt
-     ├── README.md
-     ├── .gitignore
-     └── .env
-     ```
-
-
-## Instructions
+## Objective
 
 1. **Refactor Project Structure**:
-   - Organize the project into the suggested folder structure.
+   - Organize the project into a well-structured hierarchy.
    - Separate interfaces into their own modules.
 
-2. **Implement Dependency Injection**:
-   - Refactor classes to use dependency injection for improved testability.
+2. **Apply SOLID Design Principles**:
+   - Ensure that the code adheres to the Single Responsibility Principle (SRP) by separating concerns.
+   - Implement the Open/Closed Principle (OCP) by allowing new report types to be added without modifying existing code.
+   - Use Dependency Inversion Principle (DIP) to decouple high-level modules from low-level modules.
 
 3. **Write Unit Tests**:
-   - Create a `tests/` directory and write unit tests for all public classes and functions.
+   - Write unit tests for all public classes and functions.
 
-4. **Run Tests**:
-   - Use `pytest` to run the tests:
-     ```bash
-     pytest
-     ```
-
-5. **Documentation**:
-   - Explain the Template Method Pattern and how it is used in the application.
+4. **Documentation**:
+   - Create documentation to explain the Template Method Pattern and how it is used in the application.
 
 ## Sample Prompts for Copilot Assistance
 
 Here are some sample prompts you can use with Copilot to guide you through the refactoring and testing phases of this exercise:
 
 ### Refactoring Phase
-1. **Interface Creation**:
-   - "Generate an interface for a report template with methods for generating headers, footers, and content."
-   - "Create a class that implements the report template interface for a company report."
 
-2. **Dependency Injection**:
-   - "Refactor the `CompanyReport` class to accept a dependency for data retrieval."
+1. **Understanding the Pattern**:
+   - "What are some best practices for implementing the Template Method Pattern in Python?"
 
-3. **SOLID Principles**:
-   - "Refactor the code to ensure the Single Responsibility Principle is followed."
+2. **Scaffolding**:
+   - "Help me create a basic folder structure for a report generation application using the Template Method Pattern.  The file main.py contains the monolithic code that needs to be refactored."
 
-### Testing Phase
-1. **Unit Tests**:
-   - "Write a unit test case to verify that the `CompanyReport` class generates a report correctly."
-   - "Generate a unit test to check that the header and footer methods are called in the correct order."
+3. **Refactoring**:
+   - "Help me refactor the existing application to follow best practices for a Template Method Pattern implementation. The response should be a working application using the existing code, and it should adhere to SOLID design principles and be structured in accordance with recommended project structuring."
 
-2. **Mocking and Isolation**:
-   - "Write a unit test that mocks the data retrieval dependency for the `CompanyReport` class."
+4. **Testing Phase**:
+   - "Outline strategies for effective unit testing of the application components."
 
-### Documentation Phase
-1. **Explain the Pattern**:
-   - "Create documentation to explain the Template Method Pattern with examples."
-   - "Add a diagram to illustrate the flow of the Template Method Pattern."
+5. **Unit Tests**:
+   - "Generate unit tests for the classes, ensuring that all public methods are covered."
+   - "Is there any need to create mock objects for dependencies to isolate the unit tests?"
+   - "Run the tests after implementation to verify functionality and identify any issues."
 
-By following these instructions and using the provided prompts, you can refactor the project to adhere to best practices and ensure it is well-documented and testable. Happy coding!
+6. **Documentation**:
+   - "Create documentation that explains the Template Method Pattern and how it is applied in this application."
+   - "What are the key components of the Template Method Pattern that should be highlighted in the documentation?"
+	
+7. **Enhancements**:
+   - "Is there a pattern that could be applied to improve the maintainability and readability of the code?"
+   - "The code as written renders output to the console. How can I modify it to allow for different output formats, such as JSON or XML, while still adhering to the Template Method Pattern?"
+
+
+By following these instructions and using the provided prompts, you can refactor the project to adhere to best practices and ensure it is well-documented and testable.
